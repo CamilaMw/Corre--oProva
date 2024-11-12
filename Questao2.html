@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pesquisa sobre Maquiagem</title>
+</head>
+
+<body>
+    <h1>Pesquisa sobre maquiagem</h1>
+    <form method="post">
+        <label for="txtEmail">Digite seu e-mail:</label>
+        <input type="email" id="txtEmail" name="txtEmail" required autofocus><br><br>
+
+        <label for="txtSenha">Digite uma senha de acesso:</label>
+        <input type="password" id="txtSenha" name="txtSenha" maxlength="8"><br><br>
+
+        <label for="nascimento">Qual é a data do seu nascimento?</label>
+        <input type="date" id="nascimento" name="nascimento"><br><br>
+
+        <label>O que você gosta de realçar com a maquiagem?</label><br>
+        <input type="radio" id="olho" name="realcar" value="Olho">
+        <label for="olho">Olho</label>
+        <input type="radio" id="boca" name="realcar" value="Boca">
+        <label for="boca">Boca</label>
+        <input type="radio" id="pele" name="realcar" value="Pele">
+        <label for="pele">Pele</label><br><br>
+
+        <label>Quais são as marcas de maquiagem que você usa?</label><br>
+        <input type="checkbox" id="avon" name="marca1" value="a">
+        <label for="avon">Avon</label><br>
+        <input type="checkbox" id="mac" name="marca2" value="m">
+        <label for="mac">MAC</label><br>
+        <input type="checkbox" id="marykay" name="marca3" value="mk">
+        <label for="marykay">MaryKay</label><br>
+        <input type="checkbox" id="natura" name="marca4" value="n">
+        <label for="natura">Natura</label><br><br>
+
+        <label for="nivel">Qual é o nível da sua maquiagem?</label>
+        <select id="nivel" name="nivel">
+            <option value="profissional">Profissional</option>
+        </select><br><br>
+
+        <label for="momento">Qual momento você mais gosta de se maquiar?</label><br>
+        <textarea id="momento" name="momento" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" name="btnEnviar" value="Enviar">
+        <input type="reset" name="btnLimpar" value="Limpar">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+Loja de Móveis 
+<!-- Elabore uma página HTML nos padrões HTML 5 
+vistos em aula, contendo uma tabela exatamente igual 
+à que aparece na imagem. Observe o alinhamento do texto
+dentro de cada célula da tabela. O título da tabela deve 
+ser feito utilizando a tag própria para essa finalidade. 
+A parte que está em negrito deve ser feita utilizando a 
+tag de cabeçalho. Lembre-se também das três tags HTML 5 para 
+dividirem a tabela em cabeçalho, corpo e rodapé. Informações 
+importantes: a tabela deverá ter borda 1 e a tag da célula que 
+está a palavra "Modelo" deverá ter largura igual a 40%. -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Loja de Móveis</title>
+</head>
+<body>
+
+    <table border="1" align="center">
+        <caption>Loja de Móveis</caption>
+        
+        <thead>
+            <tr>
+                <th rowspan="2" align="center" width="40%"><b>Modelo</b></th>
+                <th colspan="3">Linha de Móveis</th>
+            </tr>
+            <tr>
+                <th>Maio</th>
+                <th>Junho</th>
+                <th>Julho</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>Tabaco</td>
+                <td>10</td>
+                <td colspan="2" align="center">15</td>
+            </tr>
+            <tr>
+                <td>Vienna</td>
+                <td colspan="2" align="center">13</td>
+                <td align="right">12</td>
+            </tr>
+            <tr>
+                <td>Cerezo</td>
+                <td>7</td>
+                <td>6</td>
+                <td align="right">3</td>
+            </tr>
+        </tbody>
+        
+        <tfoot>
+            <tr>
+                <td colspan="4" align="center">Telefone: (61)3569-7718</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
+
